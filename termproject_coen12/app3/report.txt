@@ -1,0 +1,25 @@
+Report.txt
+Application 3
+
+Big O of Runtimes for functions in dataset.c 
+ 
+extern LIST *createDataSet(); 
+->BigO RunTime: O(1) 
+
+extern void destroyDataSet(LIST *lp); 
+->BigO RunTime: O(n)
+
+extern int searchAge(LIST *lp, int inputAge); 
+->BigO RunTime: O(n) 
+
+extern int searchID(LIST *lp, int inputID); 
+->BigO RunTime: O(n)
+
+extern void insertion(LIST *lp, int inputAge, int inputID); 
+->BigO RunTime: O(n) 
+
+extern void deletion(LIST *lp, int inputAge); 
+->BigO RunTime: O(n)
+
+extern int maxAgeGap(LIST *lp);
+->BigO RunTime: O(1)

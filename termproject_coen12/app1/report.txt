@@ -1,0 +1,25 @@
+Report.txt
+Application 1 
+
+Big O of Runtimes for functions in dataset.c 
+
+SET *createDataSet(int maxElts); 
+->BigO RunTime: O(1)
+
+void destroyDataSet(SET *sp); 
+->BigO RunTime: O(1)
+
+int searchAge(SET *sp, int inputAge, bool *found); 
+->BigO RunTime: O(log(n))
+
+void second_searcher(SET *sp, int inputAge); 
+->BigO RunTime: O(n)
+
+void insertion(SET *sp, int inputAge, int inputID); 
+->BigO RunTime: O(n) + O(log(n)) = O(n) 
+
+void deletion(SET *sp, int inputAge, int inputID); 
+->BigO RunTime: O(n^2log(n)) 
+
+int maxAgeGap(SET *sp);
+->BigO RunTime: O(1)  
